@@ -2,7 +2,7 @@
 * {
     box-sizing: border-box;
     font-family: Roboto, sans-serif;
-	x-overflow:none;
+	overflow-x:none;
 }
 body{
 	background-color: #8E9BFF;
