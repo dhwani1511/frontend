@@ -1,4 +1,4 @@
-* {
+/** {
     box-sizing: border-box;
 }
 
@@ -33,7 +33,6 @@ h4{
 .p{
 	max-width: 70%;
 	font-size: 100%;
-	user-select: none;
 }
 */
 * {
@@ -66,13 +65,7 @@ padding-right: 3%;
 	transition:background 0.2s ease-in-out;
 
 }
-/*.item:first-child { 
-    margin-left: 1%;
-}
-.item:last-child { 
-    margin-right: 1%;
-}
-*/.p{
+.p{
 	color: #c9c7c7;
 	margin-top: 7%;
 	max-width: 80%;
@@ -96,4 +89,10 @@ padding-top: 15%;
 img{
 	width: 22%;
 	height: 22%;
+}
+.unselectable {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
