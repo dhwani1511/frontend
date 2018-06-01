@@ -1,0 +1,94 @@
+body{
+	background-image: url("img/background.jpg");
+}
+.container{
+	align-content: center;
+	width: 32%;
+	margin-top: 15%;
+}
+img{
+	margin-right: 5%;
+}
+.nextstep{
+background-color: #3D8CFF;
+color: white;
+font-size: 90%;
+font-weight: 450;
+transition: background 0.1s ease-in-out;
+}
+.nextstep:hover{
+background-color: #49A5FF;
+color: white;
+}
+.check{
+	float: right;
+}
+.list-group-item:first-child{
+
+	border-radius: 0px;
+	text-align: center;
+}
+.list-group-item:last-child{
+	border-radius: 0px;
+}
+.circle{
+	color: lightgrey;
+	font-size: 7px;
+	letter-spacing: 2px;
+	padding-top: 1%;
+	padding-bottom: 5%;
+}
+.paymenthead{
+	font-weight: 700;
+	color: black;
+	letter-spacing: 1px;
+	font-size: 120%;
+	padding-bottom: 5%;
+}
+.paymenthead:hover{
+	font-weight: 700;
+	color: black;
+	letter-spacing: 1px;
+}
+.options{
+	color: lightslategrey;
+	font-size: 85%;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+.options:hover{
+	color: lightslategrey;
+	}
+
+.selected{
+	/*font-weight: 700;*/
+	color: black
+}
+.selected:hover{
+	/*font-weight: 700;*/
+	color: black
+}
+
+@media (max-width: 680px){
+	.container{
+		width: 70%;
+		margin-top: 30%;
+
+	}
+	a{
+	font-size: 80%;
+}
+
+}
+
+@media (max-width: 375px){
+	.container{
+		width: 90%;
+		margin-top: 25%;
+
+	}
+	a{
+	font-size: 80%;
+}
+
+}
